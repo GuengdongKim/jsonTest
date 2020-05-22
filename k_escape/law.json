@@ -1,0 +1,81 @@
+lw = "graduated_data": {
+    "법학부": {
+        "graduate_case": [
+            "일반졸업" //여기 확실치가 않아요ㅜㅜ
+        ],
+        "conditions": {
+            "2020": {
+                "commons": {
+                    "major_credits": 45,//단일전공기준
+                    // 심화전공 60학점
+                    // 복수전공 36학점
+                    // 부전공 21학점
+                    "total_credits": 130,
+                    "non_checking": [
+                        "졸업시험 통과 여부",
+                    ],
+                    "necessary_major": [  //전공필수과목
+                        [민사소송법],
+                    ],
+                    "necessary_culture": [
+                    ]
+                },
+                "일반법학전공": {
+                    "detail_necessary": [ //세부전공 필수
+                        [채권총론],
+                        [행정구제법],
+                    ],
+                },
+                "국제법무전공": {
+                    "detail_necessary": [ //세부전공 필수
+                        [채권총론],
+                        [국제법1],
+                    ],
+                },
+                "과학기술법무전공": {
+                    "detail_necessary": [  //세부전공 필수
+                        [특허법],
+                        [행정구제법],
+                    ],
+                },
+            },
+            "2019": {
+                "commons": {
+                    "major_credits": 45,//단일전공기준
+                    // 심화전공 60학점
+                    // 복수전공 36학점
+                    // 부전공 21학점
+                    "total_credits": 130,
+                    "non_checking": [
+                        "졸업시험 통과 여부",
+                    ],
+                    "necessary_major": [
+                        [민사소송법],
+                    ],
+                    "necessary_culture": [
+                        [헌법1],
+                        [민법총칙1],
+                    ]
+                },
+                "일반법학전공": {
+                    "detail_necessary": [
+                        [채권총론],
+                        [행정구제법],
+                    ],
+                },
+                "국제법무전공": {
+                    "detail_necessary": [ //세부전공 필수
+                        [채권총론],
+                        [국제법1],
+                    ],
+                },
+                "과학기술법무전공": {
+                    "detail_necessary": [  //세부전공 필수
+                        [특허법],
+                        [행정구제법],
+                    ],
+                }
+            }
+        }
+    }
+}
